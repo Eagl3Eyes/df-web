@@ -49,9 +49,9 @@ export default function BuildPage() {
                 </a>
                 <div className="hidden md:flex space-x-6">
                     <a href="#" className="text-white hover:text-gray-300">Home</a>
-                    <a href="#" className="text-white hover:text-gray-300">Features</a>
-                    <a href="#" className="text-white hover:text-gray-300">Support</a>
-                    <a href="/premium" className="text-white font-semibold hover:text-gray-300">Premium</a>
+                    <a href="#" className="text-white hover:text-gray-300">Docs</a>
+                    <a href="https://discord.gg/VjEaGcRFGk" className="text-white hover:text-gray-300">Support</a>
+                    {/* <a href="/premium" className="text-white font-semibold hover:text-gray-300">Premium</a> */}
                 </div>
                 <div className="hidden md:flex space-x-4">
                     <a href="https://discord.com/oauth2/authorize?client_id=1339918814678351966&permissions=551903389712&integration_type=0&scope=bot+applications.commands" className="bg-blue-500 px-4 py-2 rounded-lg hover:bg-blue-600">Invite Bot</a>
@@ -76,13 +76,13 @@ export default function BuildPage() {
             {menuOpen && (
                 <div className="md:hidden bg-gray-800 p-4">
                     <a href="#" className="block text-white hover:text-gray-300">Home</a>
-                    <a href="#" className="block text-white hover:text-gray-300">Features</a>
-                    <a href="#" className="block text-white hover:text-gray-300">Support</a>
-                    <a href="/premium" className="block text-white font-semibold hover:text-gray-300">Premium</a>
+                    {/* <a href="#" className="block text-white hover:text-gray-300">Features</a> */}
+                    <a href="https://discord.gg/VjEaGcRFGk" className="block text-white hover:text-gray-300">Support</a>
+                    {/* <a href="#" className="block text-white font-semibold hover:text-gray-300">Premium</a> */}
                 </div>
             )}
             <div className="p-4">
-                <h1 className="text-3xl font-bold text-center mb-6">Delta Force Build Guide</h1>
+                <h1 className="text-3xl font-bold text-center mb-6">Delta Force Operation Build Guide</h1>
                 <div className="flex justify-center mb-4">
                     <select
                         className="p-2 bg-gray-800 text-white rounded-md"
