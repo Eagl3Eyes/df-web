@@ -50,7 +50,7 @@ export default function BuildPage() {
                 <div className="hidden md:flex space-x-6">
                     <a href="#" className="text-white hover:text-gray-300">Home</a>
                     <a href="#" className="text-white hover:text-gray-300">Docs</a>
-                    <a href="https://discord.gg/VjEaGcRFGk" className="text-white hover:text-gray-300">Support</a>
+                    <a href="https://discord.gg/Y3HanfGVcS" className="text-white hover:text-gray-300">Support</a>
                     {/* <a href="/premium" className="text-white font-semibold hover:text-gray-300">Premium</a> */}
                 </div>
                 <div className="hidden md:flex space-x-4">
